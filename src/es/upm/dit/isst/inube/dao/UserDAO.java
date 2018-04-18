@@ -3,9 +3,10 @@ package es.upm.dit.isst.inube.dao;
 import es.upm.dit.isst.inube.dao.model.User;
 import java.util.List;
 
-public interface UsuarioDAO {
+public interface UserDAO {
 	
-	public User login(String email, int password);
+	public String login(String email, String password);
+	
 	public List<User> readAllUser();
 	public User create(String name, String mail, String password);
 	public User readMail(String mail);

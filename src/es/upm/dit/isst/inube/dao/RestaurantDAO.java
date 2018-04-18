@@ -3,7 +3,7 @@ package es.upm.dit.isst.inube.dao;
 import java.util.List;
 import es.upm.dit.isst.inube.dao.model.Restaurant;;
 
-public interface RestauranteDAO {
+public interface RestaurantDAO {
 
 	public List<Restaurant> readAllRestaurante();
 	public List<Restaurant> readUser(String id);
